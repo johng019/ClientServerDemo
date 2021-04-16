@@ -63,7 +63,7 @@ public class Client extends Application {
         });
         try {
             // Create a socket to connect to the server
-            Socket socket = new Socket("localhost", 3000);
+            Socket socket = new Socket("localhost", 3001);
             // Create an input stream to receive data from the server
             fromServer = new DataInputStream(socket.getInputStream());
             // Create an output stream to send data to the server

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jdk-11.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../Program Files/Java/jdk-11.0.6" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../Program Files/Java/jdk-11.0.6" recursive="false" />
+  </library>
+</component>

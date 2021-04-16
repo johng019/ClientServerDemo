@@ -21,7 +21,7 @@ public class Server extends Application {
     }
 
     @Override
-    public void start(Stage primaryStage) {
+    public void start(Stage primaryStage) throws InterruptedException {
         // Text area for displaying contents
         TextArea ta = new TextArea();
         // Create a scene and place it in the stage
@@ -35,7 +35,7 @@ public class Server extends Application {
         new Thread( () -> {
             try {
                 // Create a server socket
-                ServerSocket serverSocket = new ServerSocket(3000);
+                ServerSocket serverSocket = new ServerSocket(3001);
                 Platform.runLater(() -> ta.appendText("Server started at " + new Date() + '\n'));
                 // Listen for a connection request
                 Socket socket = serverSocket.accept();
@@ -72,5 +72,6 @@ public class Server extends Application {
             }catch(IOException ex) {
                 ex.printStackTrace();
             }
-        }).start();  }
+        }).start();
+    }
 }

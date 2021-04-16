@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact name="ClientServer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ClientServer_jar</output-path>
+    <root id="root">
+      <element id="archive" name="ClientServer.jar">
+        <element id="module-output" name="ClientServer" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/../openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib/src.zip" />
+      <element id="file-copy" path="$PROJECT_DIR$/../openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib/javafx-swt.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib/javafx.web.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib/javafx.base.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib/javafx.fxml.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib/javafx.media.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib/javafx.swing.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib/javafx.controls.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib/javafx.graphics.jar" />
+      <element id="library" level="project" name="jdk-11.0" />
+    </root>
+  </artifact>
+</component>
